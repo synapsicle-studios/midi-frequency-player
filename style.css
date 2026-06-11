@@ -1,0 +1,26 @@
+
+#keydiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: solid black 2px;
+    padding: 2%;
+}
+.key{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 100px;
+    border: solid black;
+    margin: 5px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
