@@ -1,4 +1,6 @@
-
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 #keydiv{
     display: flex;
     flex-direction: row;
@@ -6,7 +8,8 @@
     justify-content: center;
     align-items: center;
     border: solid black 2px;
-    padding: 2%;
+    padding:1%;
+    border-radius: 12px;
 }
 .key{
     display: flex;
@@ -23,4 +26,7 @@ main{
     justify-content: center;
     align-items: center;
 
+}
+.key:hover{
+    transform: translateY(-5px);
 }
